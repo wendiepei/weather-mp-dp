@@ -1,0 +1,5 @@
+<view class="weather-wrapper">
+  <view class="temp">{{temp}}</view>
+  <view class="weather-text">{{weatherText}}</view>
+  <image class="weather-bg" src="{{weatherBg}}" ></image>
+</view>

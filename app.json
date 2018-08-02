@@ -1,0 +1,11 @@
+{
+  "pages":[
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#cbeefd",
+    "navigationBarTitleText": "DP天气报告",
+    "navigationBarTextStyle":"black"
+  }
+}
