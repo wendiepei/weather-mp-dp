@@ -3,9 +3,10 @@
     "pages/index/index"
   ],
   "window":{
-    "backgroundTextStyle":"light",
+    "backgroundTextStyle":"dark",
     "navigationBarBackgroundColor": "#cbeefd",
     "navigationBarTitleText": "DP天气报告",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true
   }
 }
