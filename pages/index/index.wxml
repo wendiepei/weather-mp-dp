@@ -3,3 +3,17 @@
   <view class="weather-text">{{weatherText}}</view>
   <image class="weather-bg" src="{{weatherBg}}" ></image>
 </view>
+<view class="timetips">
+  <image class="timetips-icon" src='/images/time-icon.png'></image>
+  <view class="timetips-text"> 未来24小时天气预测</view>
+</view>
+
+<scroll-view scroll-x>
+  <view class="times-weather">
+    <view class="times-item" wx:for="{{timeWeather}}">
+      <view class="times-item-time">{{item.time}}</view>
+      <image class="times-item-icon" src="/images/sunny-icon.png"></image>
+      <view class="times-item-temp">{{item.tmp}}°</view>
+    </view>
+  </view>
+</scroll-view>

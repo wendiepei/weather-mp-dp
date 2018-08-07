@@ -28,3 +28,53 @@
   line-height: 56rpx;
   opacity: 0.6
 }
+
+.timetips {
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40rpx;
+}
+
+.timetips-icon {
+  margin-top: 5rpx;
+  height: 28rpx;
+  width: 36rpx;
+}
+
+.timetips-text {
+  font-size: 30rpx;
+  line-height: 42rpx;
+  opacity: 0.5;
+}
+
+.times-weather {
+  display: flex;
+}
+
+.times-item {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  width: 120rpx;
+  text-align: center;
+  align-items: center;
+}
+
+.times-item-time {
+  font-size: 30rpx;
+  line-height: 42rpx;
+}
+
+.times-item-icon {
+  margin-top: 40rpx;
+  width: 90rpx;
+  height: 90rpx;
+}
+
+.times-item-temp {
+  margin-top: 40rpx;
+  font-size: 40rpx;
+  line-height: 56rpx;
+}
